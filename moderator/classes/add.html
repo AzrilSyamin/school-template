@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="/_asset/plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/_asset/dist/css/adminlte.min.css">
+
+    <link rel="stylesheet" href="/_asset/dist/css/style.css">
+
+    <title>Moderator</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- main content  -->
+        <div class="row justify-content-center">
+            <div class="col-12">
+
+                <!-- title and profile -->
+                <div class="row">
+                    <div class="col-sm-6 col-12 mt-md-3 px-4 py-3">
+                        <a href="" class="badge badge-success mb-3 py-1 px-2">Log Out</a>
+                        <h4>Hi Selamat datang</h4>
+                        <p>Choose item to manage</p>
+                    </div>
+                    <div class="col-sm-6 col-12 mt-md-3">
+                        <div class="row justify-content-center">
+                            <a href="" class="col-5 m-1 py-4 text-center border rounded-sm shadow btn">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img src="/img/default.jpg" class="rounded" alt="teacher-icon">
+                                    </div>
+                                    <div class="col-12 mt-2">
+                                        <p>My Profile</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end title and profile -->
+                <!-- content  -->
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <a href="index.html" class="btn btn-primary mb-3"><i class="fas fa-backward"></i> Back</a>
+                    </div>
+                    <!-- Awal Form  -->
+                    <div class="col-12 col-md-6 p-4 shadow">
+                        <h4>Add New Class</h4>
+                        <form action="" method="POST">
+                            <div class="form-group">
+                                <label for="class">Class Name :</label>
+                                <input type="text" class="form-control" name="class" id="class " autofocus required>
+                            </div>
+                            <div>
+                                <label>Teachers</label>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input name="teacher_id[]" class="form-check-input" type="checkbox" value="">
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-success m-2" style="float: right;" name="submit"><i class="fas fa-fw fa-plus-circle"></i> Add New Class</button>
+                            <button type="reset" class="btn btn-warning m-2" style="float: right;"><i class="fas fa-redo-alt"></i> Reset</button>
+                        </form>
+                    </div>
+                    <!-- Akhir Form  -->
+                </div>
+                <!-- end Page Heading -->
+                <!-- end content -->
+            </div>
+        </div>
+        <!-- end main content  -->
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="/_asset/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/_asset/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/_asset/dist/js/adminlte.min.js"></script>
+</body>
+
+</html>
